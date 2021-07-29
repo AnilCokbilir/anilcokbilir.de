@@ -13,6 +13,23 @@
     animation: zoomIn 8s ease;
 }
 
+.slideshow-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    p {
+        max-width: 600px;
+        padding-left: 32px;
+        color: white;
+        font-size: 80px;
+        border-left: 8px solid rgba(214, 3, 3, 0.692);
+    }
+}
+
 @keyframes zoomIn {
     from {
         transform: scale(1);
